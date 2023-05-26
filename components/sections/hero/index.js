@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const Hero = () => (
@@ -19,7 +20,13 @@ export const Hero = () => (
           height: '100%',
         }}
       >
-        <video
+        <Image
+          src='/assets/imgs/super-hero.png'
+          alt='Hero image'
+          width={1920}
+          height={768}
+        />
+        {/* <video
           autoPlay
           loop
           muted
@@ -32,7 +39,7 @@ export const Hero = () => (
           }}
         >
           <source src='assets/video/hero-min-compressed.mp4' type='video/mp4' />
-        </video>
+        </video> */}
       </div>
       <div
         className='container'
@@ -51,8 +58,16 @@ export const Hero = () => (
                 color: '#fff',
               }}
             >
-              The Fastest way to achieve success
+              YOUR ONE STOP FOR YOUR BUSINESS
             </h1>
+            {/* <h1
+              className='text-display-2 mt-20'
+              style={{
+                color: '#fff',
+              }}
+            >
+              The Fastest way to achieve success
+            </h1> */}
             <p
               className='text-body-lead-large color-gray-500 mt-30 pr-40'
               style={{
@@ -64,22 +79,22 @@ export const Hero = () => (
               products and clients.
             </p>
             <div className='mt-40'>
-              <Link href='#' legacyBehavior>
+              <Link href='/about' legacyBehavior>
                 <a
                   className='btn btn-black bg-green shape-square icon-arrow-right-white'
                   style={{
                     backgroundColor: '#f5ba41',
                   }}
                 >
-                  Get Start
+                  About us
                 </a>
               </Link>
 
-              <Link href='#' legacyBehavior>
+              {/* <Link href='#' legacyBehavior>
                 <a className='btn btn-link icon-triangle color-gray-900 ml-40'>
                   How it works
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
           {/* <div className='col-lg-5 d-none d-lg-block'>
