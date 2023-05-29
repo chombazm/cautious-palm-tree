@@ -74,9 +74,10 @@ export const Hero = () => (
                 color: '#fff',
               }}
             >
-              An activation company offering tailored marketing
-              <br className='d-lg-block d-none' /> activations to match specific
-              products and clients.
+              Supercharge you brand with tailor-made
+              <br className='d-lg-block d-none' />
+              original, scalable, and personable Experiential & Marketing
+              campaigns
             </p>
             <div className='mt-40'>
               <Link href='/about' legacyBehavior>

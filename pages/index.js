@@ -94,10 +94,10 @@ function Index6() {
                   </div>
                 </div>
                 <div className='mt-40'>
-                  <ul className='list-icon-3'>
+                  {/* <ul className='list-icon-3'>
                     <li className='text-body-text-md'>Subscribe Newsletter</li>
                     <li className='text-body-text-md'>Get The Latest News</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -298,19 +298,17 @@ function Index6() {
                 </div>
                 <div className='col-lg-4 mb-40'>
                   <h4 className='text-heading-6 color-gray-900 icon-home mb-10 mt-10'>
-                    Agon Studio
+                    Optimistic Activation Limited
                   </h4>
                   <p className='text-body-text color-gray-600'>
-                    4517 Washington Ave.
+                    140c off twinpalm road, ibex hill, Lusaka
                     <br />
-                    Manchester, Kentucky 39495
+                    Zambia
                   </p>
                   <p className='text-body-text color-gray-600'>
                     (239) 555-0108
                   </p>
-                  <p className='text-body-text color-gray-600'>
-                    contact@agon.com
-                  </p>
+                  <p className='text-body-text color-gray-600'>(096) 6767446</p>
                 </div>
                 <div className='col-lg-8'>
                   <div className='row'>
@@ -377,7 +375,7 @@ function Index6() {
             </div>
           </div>
         </div>
-        <div className='section-box'>
+        {/* <div className='section-box'>
           <div className='container mt-100'>
             <div className='row'>
               <div className='col-lg-8'>
@@ -525,7 +523,7 @@ function Index6() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {modal ? (
           <section className='modal__bg' onClick={openModal}>
